@@ -65,6 +65,7 @@ nav {
 
 header {
     background-color: var(--header-back-color);
+    font-size: 24px;
     height: 900px;
     /* position: relative; */
     color: var(--header-font-color);
