@@ -25,8 +25,20 @@ body {
 }
 
 
-
-
+.up button {
+  position: fixed;
+  bottom: 3vh;
+  right: 3vh;
+  background-color: rgba(0, 0, 0, 0.377);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  font-size: 3vh;
+  padding: 0;
+  margin: 0;
+  /* padding: 10px; */
+}
 
 nav {
   
@@ -65,8 +77,8 @@ nav {
 
 header {
     background-color: var(--header-back-color);
-    font-size: 24px;
     height: 900px;
+    font-size: 24px;
     /* position: relative; */
     color: var(--header-font-color);
     /* background: 
@@ -226,6 +238,7 @@ button {
 .header-container {
     display: flex;
     flex-direction: column;
+    
     gap: 5vh;
     width: 60vh;
     position: absolute;
@@ -262,7 +275,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 20px;
+    /* padding: 50px; */
 }
 
 .video-card video {
@@ -270,10 +283,16 @@ footer {
     height: 60vh;
     border-radius: 10px;
     transition: all 0.3s ease;
+    
+}
+
+.get-to-know-us {
+  padding: 10%;
 }
 
 .video-card video:hover {
     height: 70vh;
+    
 }
 .footer-header button {
     background-color: transparent;
@@ -442,7 +461,7 @@ footer {
     
     display: flex;
     flex-direction: column;
-    
+    height: fit-content;
     /* width: 70vh; */
     /* word-break: break-all ; */
     /* word-wrap: break-word; */
@@ -450,6 +469,7 @@ footer {
     top: 35vh;
     gap: 3vh;
     margin-top: 50vh;
+    /* margin-bottom: 50px; */
   }
 
   .card-holder {
@@ -523,12 +543,14 @@ footer {
 
   .header-text {
     font-size: 32px;
+    height: fit-content;
   }
 
   .about-header h2 {
     font-size: 30px;
     text-align: center;
   }
+
 
   .card h2 {
     font-size: 28px;
